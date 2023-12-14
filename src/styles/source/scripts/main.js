@@ -27,10 +27,6 @@ document.addEventListener("DOMContentLoaded", function(){
             document.getElementById('nav-content').classList.add('fixed-top');
             document.getElementById('logo-nav').style.display = 'flex';
 
-
-            // add padding top to show content behind navbar
-            navbar_height = document.querySelector('.navbar').offsetHeight;
-            document.body.style.paddingTop = navbar_height + 'px';
         } else {
             document.getElementById('logo-nav').style.display = 'none';
             document.getElementById('nav-content').classList.remove('fixed-top');
